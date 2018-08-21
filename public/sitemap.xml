@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://tomaz.lovrec.eu/posts/first-entry/</loc>
+    <lastmod>2018-08-19T22:38:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaz.lovrec.eu/about/</loc>
+    <lastmod>2018-08-19T21:20:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomaz.lovrec.eu/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tomaz.lovrec.eu/categories/general/</loc>
+    <lastmod>2018-08-19T22:38:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tomaz.lovrec.eu/tags/greeting/</loc>
+    <lastmod>2018-08-19T22:38:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tomaz.lovrec.eu/posts/</loc>
+    <lastmod>2018-08-19T22:38:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tomaz.lovrec.eu/tags/</loc>
+    <lastmod>2018-08-19T22:38:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tomaz.lovrec.eu/</loc>
+    <lastmod>2018-08-19T22:38:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

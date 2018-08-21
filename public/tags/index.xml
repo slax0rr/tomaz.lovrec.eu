@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tomaž Lovrec</title>
+    <link>https://tomaz.lovrec.eu/tags/</link>
+    <description>Recent content in Tags on Tomaž Lovrec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Aug 2018 22:38:10 +0200</lastBuildDate>
+    
+	<atom:link href="https://tomaz.lovrec.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Greeting</title>
+      <link>https://tomaz.lovrec.eu/tags/greeting/</link>
+      <pubDate>Sun, 19 Aug 2018 22:38:10 +0200</pubDate>
+      
+      <guid>https://tomaz.lovrec.eu/tags/greeting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
