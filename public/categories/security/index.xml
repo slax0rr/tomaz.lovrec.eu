@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Tomaž Lovrec</title>
-    <link>https://tomaz.lovrec.eu/posts/</link>
-    <description>Recent content in Posts on Tomaž Lovrec</description>
+    <title>Security on Tomaž Lovrec</title>
+    <link>https://tomaz.lovrec.eu/categories/security/</link>
+    <description>Recent content in Security on Tomaž Lovrec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Aug 2018 12:58:27 +0200</lastBuildDate>
     
-	<atom:link href="https://tomaz.lovrec.eu/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tomaz.lovrec.eu/categories/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>https://tomaz.lovrec.eu/posts/cleartext-passwords-are-bad-and-you-should-feel-bad/</guid>
       <description>I have just finished reading a slightly older Twitter thread involving storage of passwords in clear text format in the database by one of the largest mobile network company in Austria. This enraged me enough to go an write this blog post.
 What bothers me more than practicing this, is the very apparent lack of sense of security by their employees, stating how their system is &amp;ldquo;amazingly good&amp;rdquo;, and that no one could breach their defenses.</description>
-    </item>
-    
-    <item>
-      <title>First Entry</title>
-      <link>https://tomaz.lovrec.eu/posts/first-entry/</link>
-      <pubDate>Sun, 19 Aug 2018 22:38:10 +0200</pubDate>
-      
-      <guid>https://tomaz.lovrec.eu/posts/first-entry/</guid>
-      <description>A new beginning. I have finally come around to updating my old website, and have finally been able to try out hugo, a Static Site Generator. If you haven&amp;rsquo;t tried it out, and want to give it a Go(pun intended), I strongly encourage you do to do so.
-But enough about that. It&amp;rsquo;s been a very long time since I&amp;rsquo;ve ran a blog, and the last time I did, my laziness overpowered me, and I just stopped writing articles.</description>
     </item>
     
   </channel>

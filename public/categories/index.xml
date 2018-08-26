@@ -11,11 +11,29 @@
     
     
     <item>
+      <title>Development</title>
+      <link>https://tomaz.lovrec.eu/categories/development/</link>
+      <pubDate>Sun, 26 Aug 2018 12:58:27 +0200</pubDate>
+      
+      <guid>https://tomaz.lovrec.eu/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>General</title>
       <link>https://tomaz.lovrec.eu/categories/general/</link>
       <pubDate>Sun, 19 Aug 2018 22:38:10 +0200</pubDate>
       
       <guid>https://tomaz.lovrec.eu/categories/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://tomaz.lovrec.eu/categories/security/</link>
+      <pubDate>Sun, 26 Aug 2018 12:58:27 +0200</pubDate>
+      
+      <guid>https://tomaz.lovrec.eu/categories/security/</guid>
       <description></description>
     </item>
     

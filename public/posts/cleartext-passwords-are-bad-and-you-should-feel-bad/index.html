@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Tomaž Lovrec">
+    <meta name="description" content="Personal site of a Gopher">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <base href="https://tomaz.lovrec.eu">
+    <title>
+  Cleartext passwords are bad and you should feel bad · Tomaž Lovrec
+</title>
+
+    <link rel="canonical" href="https://tomaz.lovrec.eu/posts/cleartext-passwords-are-bad-and-you-should-feel-bad/">
+
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="https://tomaz.lovrec.eu/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://tomaz.lovrec.eu/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://tomaz.lovrec.eu/images/favicon-16x16.png" sizes="16x16">
+
+    
+
+    <meta name="generator" content="Hugo 0.45.1" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://tomaz.lovrec.eu/">
+      Tomaž Lovrec
+    </a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://tomaz.lovrec.eu/about/">About</a>
+            </li>
+          
+            <li class="navigation-item   align-left  ">
+              <a class="navigation-link" href="https://tomaz.lovrec.eu/posts/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Cleartext passwords are bad and you should feel bad</h1>
+      <h2 class="date">August 26, 2018</h2>
+
+      
+    </header>
+
+    <p>I have just finished reading a slightly older Twitter
+<a href="https://twitter.com/tmobileat/status/981418339653300224">thread</a> involving
+storage of passwords in clear text format in the database by one of the largest
+mobile network company in Austria. This enraged me enough to go an write this
+blog post.</p>
+
+<p>What bothers me more than practicing this, is the very apparent lack of sense of
+security by their employees, stating how their system is &ldquo;amazingly good&rdquo;, and
+that no one could breach their defenses. This makes me wonder, how can one even
+think that? How can one even make such a statement after admitting they are
+storing passwords in clear text format? Well, after a little bit of examination,
+I came across this image, proving that their awesome security is in fact a big
+fat <a href="https://pbs.twimg.com/media/DaIHlx2W4AEx_ww.jpg:large">lie</a>. PHP version
+5.1.6, released back in 2006, long since reached End-Of-Life. Kernel version of
+the server, 2.6.18, also released back in 2006. And yet they try to convince us
+that their 12 year old software is &ldquo;amazingly good&rdquo; secure. Yeah, I&rsquo;m going to
+take a &lsquo;no&rsquo; on that.</p>
+
+<p>Even if their software <em>was</em> up-to-date and &ldquo;amazingly good&rdquo; secure, this is
+still no excuse to store your passwords in clear text format. Another fact that
+the employees of T-Mobile Austria seem to not know about. Even if you are
+capable of guaranteeing that no one could breach your security, how can you
+guarantee that some employee who has access to the database, and gets laid off
+on some unfair terms for them? How can you guarantee they wont make a copy of
+the database, and dump it out somewhere on the internet? There are countless
+more possible scenarios, but lets just leave it at, no system is ever secure
+enough that you could store sensitive information in plain text format. Period.</p>
+
+<p>There is literally no excuse you can use to store such sensitive information in
+plain text. There is even no valid reason why you would need to be able to
+re-use the users authentication information. User should know this to
+authenticate themself against their product, and this is it. No, encrypting
+passwords is also not OK. You should salt and hash them with a strong algorithm
+that will not be brute-forced by a pocket calculator. Yes I am looking at you
+MD5 and SHA1.</p>
+
+<p>With this I will end my rant, and hope that I will be able to provide a better
+reading material the next time. Until next time!</p>
+
+  </article>
+
+  <br/>
+
+  
+      <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "tomazlovrec" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+  
+</section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>Gophers are amazing creatures.</p>
+    
+     © 2018    ·  Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>. 
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>
