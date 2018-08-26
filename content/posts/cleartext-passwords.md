@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 date = 2018-08-26T12:58:27+02:00
 title = "Cleartext passwords are bad and you should feel bad"
 slug = "cleartext-passwords-are-bad-and-you-should-feel-bad"
