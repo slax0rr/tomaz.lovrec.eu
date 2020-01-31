@@ -18,15 +18,18 @@ During my activity over the years in software development and general computer
 science, I have acquired quite a few skills in programming languages,
 technologies and computers in general:
 
-* C/C++
 * Go
 * Python
 * PHP
+* C/C++
 * ASP.NET
 * SQL
 * HTML
 * JavaScript
 * CSS
+* bash
+* Docker
+* Kubernetes
 * ... and a great deal more ...
 
 ## Career
