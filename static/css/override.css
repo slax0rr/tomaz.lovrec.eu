@@ -1,0 +1,14 @@
+.highlight pre {
+    max-height: 640px;
+    overflow: auto;
+    line-height: 1em;
+    font-size: .9em;
+}
+
+body {
+    line-height: 1.6em;
+}
+
+code {
+    padding: .1rem .4rem 0rem .4rem;
+}
