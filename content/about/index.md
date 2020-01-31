@@ -92,4 +92,4 @@ administration, and management of one of companies largest e-commerce systems.
 * Senior Software Developer
 
 Developer of public and private RESTful APIs for numerous projects within the
-company.
+company. Maintainer of production environment on Kubernetes.
